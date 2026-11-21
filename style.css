@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #050008;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+  color: #ffb3d9;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.overlay-text h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #ff1a75, 0 0 25px #ff66a3;
+}
+
+.overlay-text p {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  opacity: 0.8;
+}

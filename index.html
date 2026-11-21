@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Galaxy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Kanvas 3D akan muncul di sini -->
+  <div id="canvas-container"></div>
+
+  <!-- Teks Ucapan di Layar -->
+  <div class="overlay-text">
+    <h1>ILAA SAYANG DIDIL BANYAK BANYAK</h1>
+    <p>Geser atau scroll untuk melihat galaksi ✨</p>
+  </div>
+
+  <!-- Import Three.js & OrbitControls lewat CDN -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
